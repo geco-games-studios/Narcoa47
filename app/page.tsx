@@ -16,7 +16,7 @@ export default function Home() {
             Home
           </Link>
           <Link href="/about" className="font-medium text-[#0A4D68]">
-            About Us
+            About Me
           </Link>
           <Link href="/services" className="font-medium text-[#0A4D68]">
             Services
