@@ -21,7 +21,7 @@ export default function Home() {
           <Link href="/services" className="font-medium text-[#0A4D68]">
             Services
           </Link>
-          <Button className="bg-[#F27127] hover:bg-[#e05e15] text-white">Contact Us</Button>
+          <Button className="bg-[#F27127] hover:bg-[#e05e15] text-white">Contact Me</Button>
         </nav>
         <MobileNav />
       </header>
