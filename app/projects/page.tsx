@@ -154,7 +154,7 @@ export default function Projects() {
               I'm always interested in hearing about new projects and opportunities.
             </p>
             <Link
-              href="mailto:bulemu@example.com"
+              href="mailto:narcoa47@outlook.com"
               className="inline-flex items-center gap-2 rounded-lg bg-primary px-8 py-4 font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:gap-3"
             >
               Get In Touch

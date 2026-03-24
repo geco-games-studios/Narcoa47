@@ -97,31 +97,6 @@ export default function Skills() {
             </div>
           </div>
         </section>
-
-        {/* Certifications */}
-        <section className="border-b border-border bg-card">
-          <div className="mx-auto max-w-6xl px-6 py-20">
-            <h2 className="mb-12 text-4xl font-bold text-foreground">
-              Certifications<span className="text-primary">.</span>
-            </h2>
-
-            <div className="space-y-4">
-              {[
-                'AWS Certified Solutions Architect',
-                'Google Cloud Professional Data Engineer',
-                'Full Stack Web Development - Udacity',
-              ].map((cert) => (
-                <div
-                  key={cert}
-                  className="flex items-center gap-3 rounded-lg border border-border p-4 hover:border-primary transition-colors"
-                >
-                  <div className="h-3 w-3 rounded-full bg-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">{cert}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
       </main>
       <Footer />
     </>

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
+import { ContactForm } from '@/components/contact-form';
 import { portfolioData } from '@/lib/portfolio-data';
 import { ArrowRight } from 'lucide-react';
 
@@ -140,6 +141,20 @@ export default function Home() {
                 <ArrowRight className="h-5 w-5" />
               </Link>
             </div>
+          </div>
+        </section>
+
+        {/* Contact Section */}
+        <section className="border-t border-border bg-background py-20">
+          <div className="mx-auto max-w-6xl px-6">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold text-foreground mb-4">Let's Work Together</h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                I'm always interested in new opportunities and exciting projects.
+                Whether you have a question or just want to say hi, feel free to reach out!
+              </p>
+            </div>
+            <ContactForm />
           </div>
         </section>
       </main>

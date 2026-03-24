@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Bulemu Narco Shilukukwa - Full Stack Developer',
+  title: 'BNS - INC - Full Stack Developer',
   description: 'Portfolio of Bulemu Narco Shilukukwa, a Full Stack Developer specializing in modern web technologies and beautiful user experiences.',
   icons: {
     icon: [

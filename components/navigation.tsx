@@ -20,7 +20,7 @@ export function Navigation() {
       <div className="mx-auto max-w-6xl px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-xl font-bold text-foreground">
-            BNS.
+            BNS.INC
           </Link>
 
           {/* Desktop Navigation */}

@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           {/* Brand */}
           <div className="flex flex-col gap-2">
-            <h3 className="text-lg font-bold text-foreground">BNS.</h3>
+            <h3 className="text-lg font-bold text-foreground">BNS.INC</h3>
             <p className="text-sm text-muted-foreground">
               Full Stack Developer crafting digital experiences.
             </p>
