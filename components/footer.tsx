@@ -46,7 +46,7 @@ export function Footer() {
             <h4 className="font-semibold text-foreground">Connect</h4>
             <div className="flex gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/NarcoA47"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -55,7 +55,7 @@ export function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/bulemu-shilukukwa-490874220/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -64,7 +64,7 @@ export function Footer() {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/NarcoS6415"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter"
@@ -73,7 +73,7 @@ export function Footer() {
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="mailto:bulemu@example.com"
+                href="mailto:narcoa47@outlook.com"
                 aria-label="Email"
                 className="text-muted-foreground transition-colors hover:text-primary"
               >
