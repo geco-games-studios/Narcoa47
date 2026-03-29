@@ -13,6 +13,9 @@ export function Navigation() {
     { name: 'Experience', href: '/experience' },
     { name: 'Skills', href: '/skills' },
     { name: 'Projects', href: '/projects' },
+    { name: 'Studios', href: '/studios' },
+    { name: 'Awards', href: '/awards' },
+    { name: 'Academy', href: '/academy' },
   ];
 
   return (
@@ -20,7 +23,7 @@ export function Navigation() {
       <div className="mx-auto max-w-6xl px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-xl font-bold text-foreground">
-            BNS.INC
+            NS
           </Link>
 
           {/* Desktop Navigation */}
